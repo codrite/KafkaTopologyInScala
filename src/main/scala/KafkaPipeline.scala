@@ -28,8 +28,6 @@ class KafkaPipeline(sourceTopic: String, kvTopic: String, targetTopic: String) {
       Thread.sleep(10)
 
     println("RUNNING")
-
-    Thread.sleep(100000)
   }
 
   def streamsConfig: Properties = {
